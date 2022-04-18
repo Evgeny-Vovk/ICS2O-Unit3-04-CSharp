@@ -7,7 +7,7 @@ using System;
 class Program
 {
     public static void Main(string[] args)
-        {
+    {
         //input
         float fahrenheit;
 
@@ -18,7 +18,7 @@ class Program
         fahrenheit = Convert.ToInt32(Console.ReadLine());
 
         //process
-        double celsius = (fahrenheit - 32) * 5/9;
+        double celsius = (fahrenheit - 32) * 5 / 9;
 
         //output
         Console.WriteLine("");
